@@ -5,7 +5,7 @@
 $client = new swoole_client(SWOOLE_SOCK_TCP);
 
 //连接到服务器
-if (!$client->connect('127.0.0.1', 9501, 5))
+if (!$client->connect('127.0.0.1', 9601, 5))
 {
     die("connect failed.");
 }

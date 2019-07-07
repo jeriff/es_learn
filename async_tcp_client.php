@@ -25,4 +25,4 @@ $client->on("close", function($cli){
 });
 
 //发起连接
-$client->connect('127.0.0.1', 9501, 0.5);
+$client->connect('127.0.0.1', 9601, 0.5);
