@@ -5,6 +5,7 @@ $server->set(array(
     'task_worker_num' => 2,
     'task_async' => true
 ));
+echo 123;
 /**
  * 用户进程实现了广播功能，循环接收管道消息，并发给服务器的所有连接
  */
